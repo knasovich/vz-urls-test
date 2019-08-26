@@ -1,0 +1,26 @@
+{
+  "business": "Hughesnet",
+  "project": "HughesNet_Mobile_Cart",
+  "displayId": "",
+  "email": [
+    "knasovich@redventures.com"
+  ],
+  "envs": {
+    "default": ""
+  },
+  "baseUrl": "https://www.verizon.com",
+  "devices": {
+    "chrome-Desktop": {
+      "browser": "Chrome",
+      "browserName": "Chrome",
+      "browserstack.networkLogs": "true",
+      "browserstack.debug": "true",
+      "chromeOptions": {
+        "args": [
+          "incognito",
+          "disable-web-security"
+        ]
+      }
+    }
+}
+}

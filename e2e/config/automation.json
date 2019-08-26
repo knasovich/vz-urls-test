@@ -1,0 +1,90 @@
+[
+  {
+    "file": "./e2e/tests/hughesnet/cart/tests/growth_discount_check.js",
+    "interval": "daily",
+    "slackChannels": ["qa_hughesnet_updates"],
+    "devices": [{
+      "name": "chrome-Desktop"
+    },
+    {
+      "name": "chrome-Mobile"
+    }]
+  },
+  {
+    "file": "./e2e/tests/hughesnet/cart/tests/cart_test.js",
+    "interval": "daily",
+    "slackChannels": ["qa_hughesnet_updates"],
+    "devices": [{
+      "name": "chrome-Desktop"
+    },
+    {
+      "name": "chrome-Mobile"
+    }]
+  },
+  {
+    "file": "./e2e/tests/hughesnet/cart/tests/cart_failed_credit.js",
+    "interval": "daily",
+    "slackChannels": ["qa_hughesnet_updates"],
+    "devices": [{
+      "name": "chrome-Desktop"
+    },
+    {
+      "name": "chrome-Mobile"
+    }]
+  },
+  {
+    "file": "./e2e/tests/hughesnet/cart/tests/standard_offer1_discount_check.js",
+    "interval": "daily",
+    "slackChannels": ["qa_hughesnet_updates"],
+    "devices": [{
+      "name": "chrome-Desktop"
+    },
+    {
+      "name": "chrome-Mobile"
+    }]
+  },
+  {
+    "file": "./e2e/tests/hughesnet/cart/tests/standard_offer2_discount_check.js",
+    "interval": "daily",
+    "slackChannels": ["qa_hughesnet_updates"],
+    "devices": [{
+      "name": "chrome-Desktop"
+    },
+    {
+      "name": "chrome-Mobile"
+    }]
+  },
+  {
+    "file": "./e2e/tests/hughesnet/cart/tests/managed_offer1_discount_check.js",
+    "interval": "daily",
+    "slackChannels": ["qa_hughesnet_updates"],
+    "devices": [{
+      "name": "chrome-Desktop"
+    },
+    {
+      "name": "chrome-Mobile"
+    }]
+  },
+  {
+    "file": "./e2e/tests/hughesnet/cart/tests/managed_offer2_discount_check.js",
+    "interval": "daily",
+    "slackChannels": ["qa_hughesnet_updates"],
+    "devices": [{
+      "name": "chrome-Desktop"
+    },
+    {
+      "name": "chrome-Mobile"
+    }]
+  },
+  {
+  "file": "./e2e/tests/hughesnet/cart/tests/new_credit_cart.js",
+  "interval": "daily",
+  "slackChannels": ["qa_hughesnet_updates"],
+  "devices": [{
+    "name": "chrome-Desktop"
+  },
+  {
+    "name": "chrome-Mobile"
+  }]
+}
+]

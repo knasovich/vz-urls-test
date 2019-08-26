@@ -1,0 +1,41 @@
+{
+  "name": "verizon",
+  "version": "1.0.0",
+  "description": "Verizon URLs tests",
+  "scripts": {
+    "e2e": "node e2e/run_wdio.js",
+    "automation": "node --max-old-space-size=4096 e2e/run_automation.js",
+    "mas3": "aws-okta exec qa -- node e2e/run_wdio.js",
+    "mocha": "./node_modules/mocha/bin/mocha"
+  },
+  "dependencies": {
+    "@redventures/eslint-config-rv": "^1.0.3",
+    "@redventures/stylelint-config-rv": "0.0.8",
+    "@slack/client": "^4.8.0",
+    "aws-sdk": "^2.279.1",
+    "browserstack-local": "^1.4.0",
+    "chai": "^4.2.0",
+    "chai-as-promised": "*",
+    "commander": "^2.16.0",
+    "dotenv": "^8.0.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.17.2",
+    "fs-extra": "^7.0.0",
+    "klaw": "^2.1.1",
+    "mochawesome": "^3.1.1",
+    "moment": "*",
+    "moment-timezone": "^0.5.21",
+    "stylelint": "^10.0.1",
+    "wdio-browserstack-service": "^0.1.18",
+    "wdio-dot-reporter": "0.0.10",
+    "wdio-json-reporter": "^0.4.0",
+    "wdio-mocha-framework": "^0.6.2",
+    "wdio-mochawesome-reporter": "^2.0.1",
+    "wdio-screenshot": "*",
+    "wdio-selenium-standalone-service": "*",
+    "wdio-spec-reporter": "^0.1.5",
+    "webdriverio": "^4.13.1"
+  }
+}
